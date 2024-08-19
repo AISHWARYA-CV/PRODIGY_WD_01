@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Tourism Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #0b8db5;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #about {
+            padding: 20px;
+            background: #e2e2e2;
+        }
+
+        #about h2 {
+            color: #444;
+        }
+
+        #about p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        #about .history {
+            margin-bottom: 20px;
+        }
+
+        #about .mission {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px; /* Reduced margin for a better fit */
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+@media(max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e5e;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        line-height: 30px;
+    }
+    nav ul li {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+    </style>
+</head>
+<body>
+    
+   <nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Feedback</a></li>
+    </ul>
+   </nav>
+
+    <header>
+        <h1>About Us</h1>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>Our Story</h2>
+            <p class="history">Founded in 2010, Explore The World started with a simple mission: to help people discover the beauty and wonder of the world. Our founders were passionate travelers who wanted to share their love for exploration with others. Over the years, we have grown into a leading travel agency with a global presence, offering an array of services to make travel more accessible and enjoyable.</p>
+
+            <div class="mission">
+                <p>Our mission is to provide exceptional travel experiences by offering personalized services, expert advice, and seamless booking processes. We strive to create memorable journeys that exceed our clients' expectations and foster a love for travel.</p>
+            </div>
+
+            <p>Our team of dedicated professionals brings a wealth of knowledge and experience to the table. From experienced travel consultants to destination specialists, we work together to ensure that every aspect of your trip is handled with care and precision. We are committed to excellence and are always seeking new ways to enhance your travel experience.</p>
+
+            <p>Thank you for choosing Explore The World. We look forward to being a part of your next adventure!</p>
+        </div>
+    </section>
+</body>
+</html>
+

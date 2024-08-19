@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Tourism Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #0b8db5;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        #services {
+            padding: 20px;
+            background: #f9f9f9;
+        }
+
+        #services h2 {
+            color: #555;
+        }
+
+        .service {
+            margin-bottom: 20px;
+        }
+
+        .service h3 {
+            color: #333;
+        }
+
+        .service p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .service .highlight {
+            background: #e0f7fa;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px; /* Reduced margin for a better fit */
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+@media(max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e5e;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        line-height: 30px;
+    }
+    nav ul li {
+        display: block;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+       </nav>
+    <header>
+        <h1>Our Services</h1>
+    </header>
+    <section id="services">
+        <div class="container">
+            <h2>What We Offer</h2>
+            <div class="service">
+                <h3>Travel Packages</h3>
+                <p>Our travel packages are designed to cater to a variety of preferences and budgets. Whether you're looking for a relaxing beach holiday, an adventurous trek, or a cultural city tour, we have the perfect package for you. Each package includes carefully selected accommodations, activities, and transportation to ensure a hassle-free experience.</p>
+                <p class="highlight">Explore our exclusive deals and seasonal offers to get the best value for your money. Our packages are continuously updated to reflect the latest travel trends and destination highlights.</p>
+            </div>
+            
+            <div class="service">
+                <h3>Guided Tours</h3>
+                <p>Our guided tours provide an immersive experience into the heart of your chosen destination. Led by knowledgeable local guides, these tours offer insightful commentary and access to hidden gems that you might not discover on your own. From historical landmarks to off-the-beaten-path attractions, our tours are designed to enhance your travel experience.</p>
+            </div>
+
+            <div class="service">
+                <h3>Travel Insurance</h3>
+                <p>Traveling comes with uncertainties, which is why we offer comprehensive travel insurance to protect you against unexpected events. Our insurance plans cover a range of scenarios including trip cancellations, medical emergencies, and lost luggage, giving you peace of mind during your travels.</p>
+                <p class="highlight">Choose from various insurance options based on your needs and travel plans. Our team is here to assist you in selecting the right coverage to ensure a worry-free journey.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
